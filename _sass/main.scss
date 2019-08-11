@@ -2,3 +2,23 @@
 @import 'bootstrap/bootstrap';
 
 @import 'stats';
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: auto;
+    right: 0;
+    z-index: 1001;
+}
+
+.navbar-brand {
+    img {
+        height: 140px;
+    }
+}
+
+.hero {
+    height: 1100px;
+}
